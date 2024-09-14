@@ -1,0 +1,14 @@
+.navbar_container {
+  background-color: black;
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+}
+
+.navbar_container > ul > li:first-child {
+  padding-top: 60px;
+}
+
+.navbar_container > ul > li:last-child {
+  padding-top: 30px;
+}

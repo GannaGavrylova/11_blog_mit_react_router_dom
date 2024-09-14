@@ -1,0 +1,56 @@
+.home_container {
+  background-color: azure;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.home_container > h1 {
+  font-size: 48px;
+}
+.home_container > h1,
+p {
+  padding-top: 100px;
+}
+
+.home_container > p {
+  font-size: 35px;
+  color: rgb(57, 101, 101);
+}
+
+.home_container > h1:hover,
+.home_container > p:hover {
+  background: linear-gradient(90deg, red, yellow, green, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* @keyframes rainbow {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+} */
+/* .home_container > h1:hover,
+p:hover {
+  font-size: 48px;
+  animation: rainbow 5s infinite;
+} */
+
+/* .home_container > h1:hover,
+p:hover {
+  font-size: 48px;
+  color: black;
+  text-shadow: 2px 2px red, -2px -2px yellow, 2px -2px green, -2px 2px blue;
+} */
